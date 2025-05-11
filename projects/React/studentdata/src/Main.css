@@ -1,0 +1,29 @@
+.btn-primary{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #212b26;
+    font-size: 15px;
+    box-shadow: 3px 5px 5px grey
+    
+    
+}
+.btn-primary:hover{
+    background-color: #34463b77;
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 100px;
+    width: 100%;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+
+}

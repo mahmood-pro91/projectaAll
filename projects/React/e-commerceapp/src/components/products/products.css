@@ -1,0 +1,23 @@
+.root{
+    max-width: 245px;
+}
+.media{
+    height: 180px;
+    padding: 20px;
+}
+.cardActions{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+.cardContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product{
+    display: flex;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}

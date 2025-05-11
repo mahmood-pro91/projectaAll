@@ -1,0 +1,108 @@
+{
+    "clients":[
+        {
+            "name": "John Doe",
+            "email": "john@example.com",
+            "phone": "555-555-5555"
+        },
+        {
+            "name": "Jane Smith",
+            "email": "jane@example.com",
+            "phone": "555-555-5556"
+        }
+    ],
+    "products": [
+    {
+      "id": 1,
+      "title": "Premium Leather Wallet",
+      "category": "Accessories",
+      "price": 49.99,
+      "description": "Handcrafted genuine leather wallet with multiple card slots and RFID blocking technology for maximum security."
+    },
+    {
+      "id": 2,
+      "title": "Wireless Bluetooth Headphones",
+      "category": "Electronics",
+      "price": 129.95,
+      "description": "Noise-cancelling headphones with 30-hour battery life, comfortable over-ear design, and exceptional sound quality."
+    },
+    {
+      "id": 3,
+      "title": "Ceramic Pour-Over Coffee Maker",
+      "category": "Kitchen",
+      "price": 34.50,
+      "description": "Elegant ceramic pour-over coffee dripper that extracts optimal flavor from your favorite coffee beans."
+    },
+    {
+      "id": 4,
+      "title": "Organic Cotton T-Shirt",
+      "category": "Clothing",
+      "price": 24.99,
+      "description": "Soft, breathable 100% organic cotton t-shirt with a classic fit, available in multiple colors."
+    },
+    {
+      "id": 5,
+      "title": "Stainless Steel Water Bottle",
+      "category": "Sports & Outdoors",
+      "price": 27.50,
+      "description": "Double-walled insulated water bottle that keeps drinks cold for 24 hours or hot for 12 hours. BPA-free and eco-friendly."
+    },
+    {
+      "id": 6,
+      "title": "Scented Soy Candle Set",
+      "category": "Home Decor",
+      "price": 42.00,
+      "description": "Set of three hand-poured soy candles with essential oil fragrances including lavender, sandalwood, and vanilla."
+    },
+    {
+      "id": 7,
+      "title": "Professional Yoga Mat",
+      "category": "Fitness",
+      "price": 78.95,
+      "description": "Extra thick, non-slip yoga mat made from eco-friendly materials providing excellent cushioning and stability for all yoga styles."
+    },
+    {
+      "id": 8,
+      "title": "Mechanical Keyboard",
+      "category": "Computer Accessories",
+      "price": 119.99,
+      "description": "Tactile mechanical keyboard with customizable RGB lighting, programmable keys, and durable construction for gamers and typists."
+    },
+    {
+      "id": 9,
+      "title": "Portable Power Bank",
+      "category": "Electronics",
+      "price": 35.99,
+      "description": "20,000mAh fast-charging power bank with dual USB ports and USB-C compatibility for charging multiple devices on the go."
+    },
+    {
+      "id": 10,
+      "title": "Bamboo Cutting Board Set",
+      "category": "Kitchen",
+      "price": 39.95,
+      "description": "Set of three different sized bamboo cutting boards with juice grooves and handles, perfect for all food preparation needs."
+    }
+  ],
+    "orders":[
+        {
+            "client": "John Doe",
+            "products": [
+                {
+                    "name": "Product 1",
+                    "price": 10.99
+                }
+            ],
+            "total": 10.99
+        },
+        {
+            "client": "Jane Smith",
+            "products": [
+                {
+                    "name": "Product 2",
+                    "price": 19.99
+                }
+            ],
+            "total": 19.99
+        }
+    ]
+}

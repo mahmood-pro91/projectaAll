@@ -1,0 +1,39 @@
+.topbar{
+    height: 60px;  
+    align-items: center;
+    padding:  20px;
+    position: sticky;
+    top:0;
+    z-index: 999;
+}
+.heading{
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    margin-right: 20px;
+    color:darkblue
+}
+
+.topbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topbar-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.topbar-right div{
+    margin-right:5px ;
+}
+.topbar-left{
+    display: flex;
+    align-items: center;
+}
+.topbar-right-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
